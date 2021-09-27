@@ -9,7 +9,8 @@ var User = function (firstName,coursecount) {
 }
 User.prototype.getFirstName = function(){
     console.log(`Your firstname is ${this.firstName}`);
-} // `new` keyword takes care injecting the prototype object into the created ones.
+} // `new` keyword takes care injecting the prototype object into the created ones.it also
+// returns the object properties without return statement
 
 const user1=new User('Aashiq',4)
 // console.log(user1);
